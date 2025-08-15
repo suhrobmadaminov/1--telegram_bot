@@ -1,1 +1,1 @@
-# 1--telegram_bot
+# Bu bot sizga meva va sabazavotlar haqida malumot beruvchi bot
