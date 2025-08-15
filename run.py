@@ -182,5 +182,9 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+<<<<<<< HEAD
         print('bot toxtadi')
+=======
+        print('Bot toxtadi')
+>>>>>>> 81f9f393a0c7e795ac5a48afcfc355dc0f92c13a
 
