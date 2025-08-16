@@ -22,7 +22,7 @@ async def cmd_ananas(message: Message):
                         ' U sariq go‘shti bilan boy vitamin C manbai hisoblanadi. Ananas sharbat, salat va shirinliklarda ishlatiladi.'
                         ' Uning qobig‘i qattiq, ichi esa suvli. U immunitetni mustahkamlashga yordam beradi.')
 
-@dp.message(F.text == 'anor')
+@dp.message(Command(    'anor'))
 async def cmd_anor(message: Message):
     await message.reply('Anor qizil donalari bilan mashhur, shirin-nordon ta’mli meva. U antioksidantlarga boy va yurak salomatligini qo‘llab-quvvatlaydi.'
                         ' Anor sharbat sifatida yoki salatlarda ishlatiladi. Uning qobig‘i yemaydigan qismi, donalari esa mazali.'
@@ -157,6 +157,54 @@ async def cmd_qovoq(message:Message):
 
 
 
+@dp.message(Command('papaya'))
+async def cmd_(message:Message):
+    await message.reply('Papaya shirin, suvli, tropik meva. C vitamini va hazm fermentlariga boy.'
+                        ' O‘zbekistonda import qilinadi, xom yoki smuzilarda ishlatiladi. Urug‘lari yemaydi, go‘shti sariq. Ekzotik meva sifatida seviladi.')
+
+
+
+@dp.message(Command('avokado'))
+async def cmd_(message:Message):
+    await message.reply('Avokado yog‘li, yumshoq, yashil meva. Sog‘lom yog‘lar va E vitamini manbai. O‘zbekistonda import qilinadi, salat yoki souslarda ishlatiladi.'
+                        ' Go‘shti kremga o‘xshaydi. Bozorlarda ekzotik meva sifatida topiladi.')
+
+
+@dp.message(Command('chernika'))
+async def cmd_(message:Message):
+    await message.reply('Chernika blueberiga o‘xshash, nordonroq meva. Ko‘rishni yaxshilashga yordam beradi.'
+                        ' O‘zbekistonda import qilinadi, choy yoki murabboda ishlatiladi. Rangi quyuq ko‘k yoki qora. Ekzotik meva sifatida topiladi.')
+
+@dp.message(Command('qalampir'))
+async def cmd_(message:Message):
+    await message.reply('Qalampir yashil, qizil yoki sariq, shirin yoki achchiq. C vitamini manbai, salat yoki pishiriqlarda ishlatiladi.'
+                        ' O‘zbekistondayozda pishadi, tuzlash uchun ham mos. Ta’mi xilma-xil, qarsildoq. Issiqxonalarda o‘sadi.')
+
+@dp.message(Command('karam'))
+async def cmd_(message:Message):
+    await message.reply('Karom oq, suvli, yumshoq ta’mli sabzavot. Tolalarga boy, salat yoki sho‘rvada ishlatiladi.'
+                        ' O‘zbekistonda yoz-kuzda pishadi, xom yoki pishiriladi. Ta’mi nozik va shirinroq. O‘zbek oshxonasida mashhur.')
+
+
+@dp.message(Command('turp'))
+async def cmd_(message:Message):
+    await message.reply('Turp qizil yoki oq, o‘tkir ta’mli kichik sabzavot. C vitamini manbai, salatlarda xom holda yeyiladi.'
+                        ' O‘zbekistonda bahor-yozda pishadi, qarsildoq tuzilishi bor. Barglari ham iste’mol qilinadi. Bog‘larda yetishtiriladi.')
+
+
+@dp.message(Command('lavlagi'))
+async def cmd_(message:Message):
+    await message.reply('Lavlagi qizil, shirin, to‘yimli sabzavot. B vitamini va temirga boy, salat yoki sho‘rvada ishlatiladi.'
+                        ' O‘zbekistonda kuzda pishadi, pishiriladi yoki tuzlanadi. Ta’mi boy va shirin. O‘zbek borshining asosiy qismi.')
+
+
+@dp.message(Command('rediska'))
+async def cmd_(message:Message):
+    await message.reply('Rediska kichik, qizil yoki oq, o‘tkir ta’mli sabzavot. C vitamini manbai, salatlarda xom holda yeyiladi.'
+                        ' O‘zbekistonda bahor-yozda pishadi, qarsildoq tuzilishi bor. Barglari ham iste’mol qilinadi. Bog‘larda yetishtiriladi.')
+
+
+
 @dp.message(Command(''))
 async def cmd_(message:Message):
     await message.reply('')
@@ -169,10 +217,57 @@ async def cmd_(message:Message):
 
 
 
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
 
 @dp.message(Command(''))
 async def cmd_(message:Message):
     await message.reply('')
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
+
+@dp.message(Command(''))
+async def cmd_(message:Message):
+    await message.reply('')
+
 
 async def main():
     await dp.start_polling(bot)
@@ -182,9 +277,6 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-<<<<<<< HEAD
         print('bot toxtadi')
-=======
-        print('Bot toxtadi')
->>>>>>> 81f9f393a0c7e795ac5a48afcfc355dc0f92c13a
 
+        print('Bot toxtadi')
