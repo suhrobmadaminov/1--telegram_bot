@@ -22,7 +22,7 @@ async def cmd_ananas(message: Message):
                         ' U sariq go‘shti bilan boy vitamin C manbai hisoblanadi. Ananas sharbat, salat va shirinliklarda ishlatiladi.'
                         ' Uning qobig‘i qattiq, ichi esa suvli. U immunitetni mustahkamlashga yordam beradi.')
 
-@dp.message(Command(    'anor'))
+@dp.message(Command(   'anor'))
 async def cmd_anor(message: Message):
     await message.reply('Anor qizil donalari bilan mashhur, shirin-nordon ta’mli meva. U antioksidantlarga boy va yurak salomatligini qo‘llab-quvvatlaydi.'
                         ' Anor sharbat sifatida yoki salatlarda ishlatiladi. Uning qobig‘i yemaydigan qismi, donalari esa mazali.'
